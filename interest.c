@@ -40,7 +40,7 @@ int main()
 //function definition
 float interest(float a, float b, float c, float d)
 {
-    float coint = a * pow((1 + (b/c)),(c * d));
+    float coint = a * pow((1 + (b/c)),(c * d)); //"coint" forcompound interest
 
     return coint;
 }
