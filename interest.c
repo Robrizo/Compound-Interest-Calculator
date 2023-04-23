@@ -17,7 +17,9 @@ int main()
     do{
     system("cls");
     //getting input from user
-    printf("COMPOUND INTEREST CALCULATOR\n\n");
+    printf("----------------------------\n");
+    printf("COMPOUND INTEREST CALCULATOR\n");
+    printf("----------------------------\n\n");
     printf("Enter principal amount:\n>>");
     scanf("%f", &p);
     printf("Enter rate: \n>>");
